@@ -9,6 +9,7 @@ specifiers:
   postcss: 8.4.21
   react: 18.2.0
   react-dom: 18.2.0
+  swr: ^2.1.0
   tailwindcss: 3.2.7
   typescript: 5.0.2
 
@@ -21,6 +22,7 @@ dependencies:
   postcss: 8.4.21
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  swr: 2.1.0_react@18.2.0
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 5.0.2
 
@@ -728,6 +730,16 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
+  /swr/2.1.0_react@18.2.0:
+    resolution: {integrity: sha512-4hYl5p3/KalQ1MORealM79g/DtLohmud6yyfXw5l4wjtFksYUnocRFudvyaoUtgj3FrVNK9lS25Av9dsZYvz0g==}
+    engines: {pnpm: '7'}
+    peerDependencies:
+      react: ^16.11.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
   /tailwindcss/3.2.7_postcss@8.4.21:
     resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
@@ -788,6 +800,14 @@ packages:
       browserslist: 4.21.5
       escalade: 3.1.1
       picocolors: 1.0.0
+    dev: false
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /util-deprecate/1.0.2:

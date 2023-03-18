@@ -3,6 +3,7 @@
 - Component level data fetching
 - i18n routes support (no runtime detection)
 - Dynamic routes (`/post/[id]`)
+- SPA routes (`/spa-post/[id]`)
 - Image optimization (uses Cloudinary)
 
 ## Static Export
