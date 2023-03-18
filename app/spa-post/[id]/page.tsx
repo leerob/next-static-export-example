@@ -4,6 +4,9 @@ import useSWR from 'swr';
 
 const fetcher = (url: string) => fetch(url).then((r) => r.json());
 
+// Currently getting
+// TypeError: Cannot read properties of undefined (reading 'cssModules')
+// When running next export
 export default function SPAPostPage({ params }: { params: { id: string } }) {
   const { data, error } = useSWR(
     `https://jsonplaceholder.typicode.com/posts/${params.id}`,

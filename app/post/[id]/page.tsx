@@ -21,9 +21,6 @@ async function getPost(id: string): Promise<Post> {
   return res.json();
 }
 
-// Currently getting
-// TypeError: Cannot read properties of undefined (reading 'cssModules')
-// When running next export
 export default async function PostPage({ params }: { params: { id: string } }) {
   const post = await getPost(params.id);
   return (
