@@ -8,8 +8,8 @@
 ## Static Export
 
 ```bash
-next build
-next export
+pnpm build
+pnpm export
 ```
 
 Then, you can deploy the `out` directory to any static hosting provider.
@@ -17,6 +17,6 @@ Then, you can deploy the `out` directory to any static hosting provider.
 You can also run it locally using a tool like `serve`:
 
 ```bash
-npm install -g serve
+pnpm install -g serve
 serve out
 ```
