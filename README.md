@@ -5,6 +5,7 @@
 - Dynamic routes (`/post/[id]`)
 - SPA routes (`/spa-post/[id]`)
 - Image optimization (uses Cloudinary)
+- Route Handlers
 
 ## Static Export
 
