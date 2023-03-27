@@ -9,12 +9,7 @@
 
 ## Static Export
 
-```bash
-pnpm build
-pnpm export
-```
-
-Then, you can deploy the `out` directory to any static hosting provider.
+Running `pnpm build` will export the site to the `out` directory. Then, you can deploy the `out` directory to any static hosting provider.
 
 You can also run it locally using a tool like `serve`:
 
